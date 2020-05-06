@@ -1,0 +1,9 @@
+description: >
+    utkarsh / udacity test
+    this template deploys a VPC in your Cloud.
+Resources:
+    VPC:
+      Type: AWS::EC2::VPC
+      Properties:
+          CidrBlock: 10.0.0.0/16
+          EnableDnsHostnames: true
