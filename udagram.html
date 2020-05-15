@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="refresh" content="0; URL='http://secure.causegive.org/dev/'" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--Shortcut icon-->
+<link rel="shortcut icon" href= "http://causegive.org/causegive-favicon.png" /> 
+<head><title>Website In Progress...</title></head>
+<!-- Website template by mittun.com -->
+<style>
+
+#top, #bottom, #left, #right {
+background: #219fd4;
+position: fixed;
+	}
+#left, #right {
+top: 0; bottom: 0;
+width: 25px;
+		}
+#left { left: 0; }
+#right { right: 0; }
+		
+#top, #bottom {
+left: 0; right: 0;
+height: 25px;
+		}
+#top { top: 0; }
+#bottom { bottom: 0; }
+		
+body {
+max-width:100%; 
+margin:0; 
+padding:50px 20px 150px 20px; 
+height:100%;}
+
+.logo-holder_mittun {
+position:relative; 
+margin:0 auto; 
+display:block; 
+width:100%; 
+max-width:360px;}
+
+.message-holder_mittun {
+width:100%; 
+max-width:600px; 
+margin:10px auto 50px; 
+display:block; 
+position:relative; 
+text-align:center;}
+
+.message-text_mittun {
+color:#666666; 
+font-size:18px;
+border-top:1px solid #ccc;
+border-bottom:1px solid #ccc;
+padding:25px;}
+
+.progress-holder_mittun {
+position:relative; 
+margin:0 auto; 
+display:block; 
+width:50px;}
+
+.gif-holder_mittun {
+opacity:.2; 
+-moz-opacity:.2; 
+-webkit-opacity:.2;
+width:50px;}
+
+.pulsate {
+    -webkit-animation: pulsate 3s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.2;
+}
+@-webkit-keyframes pulsate {
+    0% { 
+        opacity: 0.2;
+    }
+    50% { 
+        opacity: 1.0;
+    }
+    100% { 
+        opacity: 0.2;
+    }
+}
+@media 
+
+/* Fairly small screens including iphones */
+only screen and (max-width: 480px)
+ 
+
+{
+	#top, #bottom {height:10px;}
+	#left, #right {width:10px }
+}
+
+</style>
+
+<body>
+<div id="left"></div>
+<div id="right"></div>
+<div id="top"></div>
+<div id="bottom"></div>
+
+<div class="logo-holder_mittun">
+<img style="width:100%; max-width:360px;" src="https://downloads.mittun.com/files/assets/cause-give-logo-v1.png">
+</div>
+<div class="message-holder_mittun">
+<p class="message-text_mittun pulsate">“it works! Udagram, Udacity”
+  <br /><span style="display:block; padding-top:12px; font-size:.8em;">(website coming soon)</span></p>
+</div>
+<div class="progress-holder_mittun">
+<img class="gif-holder_mittun" src="https://downloads.mittun.com/files/assets/loader.gif">
+</div>
+
+</body>
+</html>
